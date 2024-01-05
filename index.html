@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQEKRDTRTD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YQEKRDTRTD');
+  </script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Farid Abdalla</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <meta property='og:title' content='Farid Abdalla | Website' />
+  <meta property='og:image' content='assets/img/thumbnail.png' />
+  <meta property='og:description' content='This is the portfolio website of Farid Abdalla' />
+  <meta property='og:url' content='kurokabe.github.io' />
+  <meta property='og:image:width' content='1200' />
+  <meta property='og:image:height' content='627' />
+  <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+  <meta property="og:type" content='website' />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+
+    function age(birthdate) {
+      const today = new Date();
+      const age = today.getFullYear() - birthdate.getFullYear() -
+        (today.getMonth() + 1 < birthdate.getMonth() ||
+          (today.getMonth() + 1 === birthdate.getMonth() && today.getDate() < birthdate.getDate()));
+      return age;
+    }
+  </script>
+
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.10.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle profile-img">
+        <h1 class="text-light"><a href="index.html">Farid Abdalla</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+          <a href="https://www.github.com/Kurokabe" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/farid-abdalla/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <!-- <a href="https://www.kaggle.com/kurokabe"><i class="fa-brands fa-kaggle"></i></a> -->
+          <a href="https://huggingface.co/Kurokabe"><img src="assets/img/icons/huggingface.png" class="huggingface"></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          </li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+          </li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Projects</span></a></li>
+          <li><a href="#hobbies" class="nav-link scrollto"><i class='bx bx-dumbbell'></i>
+              <span>Hobbies</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+          </li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Farid Abdalla</h1>
+      <p><span class="typed" data-typed-items="Machine Learning Engineer, Software Engineer, Data Scientist"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p class="lh-lg introduction-paragraph">Hello, and welcome to my portfolio! I am a <b>Research Engineer in
+              Data Science</b> with a strong background in software engineering and machine learning. I hold a
+            <b>Bachelor's degree in Software Engineering</b> from HE-Arc, a <b>Master's degree in Data Science</b>
+            from HES-SO, and I completed my Master's thesis as an international student at <b>Osaka Metropolitan
+              University</b> in Japan. My education has equipped me with a diverse set of skills and knowledge that I
+            have applied in my professional experience. I began my career as a research engineer at HE-Arc, where I
+            worked on exciting <b>machine learning projects</b>. Please take a moment to review my education and
+            experience, and feel free to explore my portfolio to see some of the projects I have worked on. If you find
+            my profile interesting, you can download my resume on the following link. <br /><a
+              href="assets/resume.pdf"><i class="fa-solid fa-file-lines"></i> Download my resume</a>.
+          </p>
+          <!-- <p>As a skilled Machine Learning Engineer, I have a proven track record of executing successful machine
+            learning projects from start to finish. With expertise in Python and deep learning frameworks such as
+            TensorFlow and PyTorch, as well as Reinforcement Learning with RLlib, I have a strong foundation in the
+            latest technologies. My experience includes developing explainable deep learning models, fine-tuning and
+            deploying image classifiers, and applying reinforcement learning techniques to optimize workshop production.
+            I have a passion for problem-solving and a drive to deliver high-quality results, making me an asset to any
+            team.</p> -->
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-circle" alt="">
+          </div>
+          <div class="col-md-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Data Scientist &amp; Software Engineer</h3>
+            <p class="fst-italic">
+              <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua. -->
+            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>20 March 1996
+                      <script>const birthdate = new Date(1996, 3, 20);
+                        const ageValue = age(birthdate);
+                        document.write("(" + ageValue + " years)")</script>
+                    </span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Biel/Bienne, Switzerland</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Bachelor:</strong> <span>Software Engineering</span>
+                  </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>abdalla.farid@hotmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>Swiss</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Master:</strong> <span>Data Science</span></li>
+                </ul>
+              </div>
+
+              <!-- <div class="row">
+                <div class="col-md-12">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Availability for hiring:</strong> <span>2 months notice</span></li>
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+            <!-- <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
+              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+              Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-md-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p class="lh-lg introduction-paragraph">As a <b>dedicated professional</b> with a strong academic background
+            in software engineering and Data Science, I have gained <b>valuable
+              experience and expertise</b> in various programming languages and tools that have allowed me to undertake
+            and deliver successful projects. With a solid foundation in <b>Python</b>, <b>PyTorch</b>,
+            <b>TensorFlow</b>,
+            <b>RLlib</b>, and <b>Scikit-learn</b>, I have honed my skills in <b>data manipulation</b>, <b>machine
+              learning</b>, and <b>model deployment</b>. Additionally, <b>PyTorch</b> and <b>TensorFlow</b> have
+            enabled me to develop <b>advanced deep learning models</b>, while <b>RLlib</b> has given me an edge in
+            <b>reinforcement
+              learning</b>. Finally, <b>Scikit-learn</b> has allowed me to build <b>complex data analysis</b> and
+            <b>visualization tools</b>. With my <b>expertise</b> and <b>proficiency</b> in these programming languages
+            and tools, I am confident in my ability to undertake any project and deliver exceptional results. Whether
+            it's data-driven solutions or deep learning models, I am committed to delivering top-notch solutions that
+            exceed expectations.
+          </p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="container-fluid">
+            <div class="row my-5 justify-content-center">
+              <div class="col-md-4 text-center">
+                <img src="assets/img/icons/machine-learning.png" class="mb-4">
+                <h1 class="mb-3"> Machine Learning</h1>
+                <p class="text-muted"> Scikit-Learn, Pandas, Numpy, Seaborn, Matplotlib, SQL, Ray Tune, Optuna, NLP,
+                  Computer Vision</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="assets/img/icons/deep-learning.png" class="mb-4">
+                <h1 class="mb-3"> Deep Learning</h1>
+                <p class="text-muted">TensorFlow, Keras, PyTorch, PyTorch-Lightning, Hadoop, Spark, Tensorflow Extended
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="assets/img/icons/robot.png" class="mb-4">
+                <h1 class="mb-3">Reinforcement Learning</h1>
+                <p class="text-muted"> Ray RLlib, Stable Baselines, Unity ML-Agents</p>
+              </div>
+            </div>
+            <div class="row my-5 justify-content-center">
+              <div class="col-md-6 text-center">
+                <!-- <i class="fas fa-solid fa-5x fa-code mb-4"></i> -->
+                <img src="assets/img/icons/computer.png" class="mb-4">
+                <h1 class="mb-3"> Software Engineering</h1>
+                <p class="text-muted"> Git, Docker, Kubernetes, AWS, Linux, Design Patterns, Project Management,
+                  Prototyping, Testing, CI/CD</p>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img src="assets/img/icons/coding.png" class="mb-4">
+                <h1 class="mb-3"> Programming Languages & Frameworks</h1>
+                <p class="text-muted"> Python, C++ (CUDA, Qt), C# (WPF, Unity), Java (JEE), Android, Web (Django,
+                  Flask), LaTeX
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col-md-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Tensorflow <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Scikit-Learn <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PyTorch <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">RLlib <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          
+            <div class="progress">
+              <span class="skill"> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div> -->
+
+      <!-- </div> -->
+
+      </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+
+    <!-- ======= Languages Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Languages</h2>
+
+          <p class="lh-lg introduction-paragraph">As a multilingual professional, I have developed proficiency in
+            several languages,
+            including <b>French</b>
+            (native), <b>English</b> (passed the <b>Cambridge First Exam</b> with an <b>A rank</b>), <b>Japanese</b>
+            (self-taught and
+            passed the <b>JLPT N2</b> exam), and <b>German</b> (limited to school-level knowledge).
+
+            The <b>Cambridge First Exam</b>, attests my advanced level
+            of <b>English proficiency</b>, which I continuously work to improve.
+
+            My autodidact approach of learning <b>Japanese</b> lead to my successful completion <b>JLPT N2</b> exam.
+            While I have not yet
+            achieved fluency, I am capable of <b>communicating effectively</b> with native
+            speakers.
+
+            Finally, my knowledge of <b>German</b>, although at the school level, has given me a foundational
+            understanding of the language, including basic grammar and vocabulary.
+
+          </p>
+          <p class="lh-lg introduction-paragraph">
+            Overall, my multilingual background enables me to interact and communicate with individuals from different
+            linguistic and cultural backgrounds
+            effectively.
+          </p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-md" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">French <i class="val">Native</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">English <i class="val">C1</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+
+              <a href="assets/img/certificates/Cambridge English Language Assessment.png"
+                data-gallery="languageCertificate" class="portfolio-lightbox"
+                title="Cambridge English First Certificate"><i class="fa-solid fa-file-lines"></i> Cambridge English
+                First Certificate</a>
+            </div>
+
+            <div class="progress mt-2">
+              <span class="skill">Japanese <i class="val">B2-C1</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="67.5" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+
+              <a href="assets/img/certificates/Japanese Language Proficiency Test N2.png"
+                data-gallery="languageCertificate" class="portfolio-lightbox" title="Certificate JLPT N2"><i
+                  class="fa-solid fa-file-lines"></i>
+                Japanese Language Proficiency Test N2 Certificate</a>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">German <i class="val">A2</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up">
+            <!-- <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Alex Smith</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                  developing user-centered digital/print marketing material from initial concept to final, polished
+                  deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div> -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master thesis</h4>
+              <h5>April 2022 - September 2022</h5>
+              <p><em>Osaka Metropolitan University, Osaka, Japan</em></p>
+              <p><strong>Grade</strong>: 6.0 / 6.0</p>
+              <p><strong>Thesis</strong>: Developed a model to generate videos conditioned on the
+                first and the last frame. A video is generated in a frame-by-frame manner in order to have coherent
+                movement between the given first and last frames. The model is trained on a custom dataset created from
+                the Demon Slayer anime and create plausible movements close to the ground truth.</p>
+              <a href="assets/img/certificates/Certificate of Study Osaka Metropolitan University.png"
+                data-gallery="gradeTranscript" class="portfolio-lightbox"
+                title="Certificate of Study at Osaka Metropolitan University"><i class="fa-solid fa-file-lines"></i>
+                Certificate of Study</a>
+            </div>
+            <div class="resume-item">
+              <h4>Master of Science in Engineering (MSE) - Data Science</h4>
+              <h5>September 2019 - September 2020</h5>
+              <p><em>HES-SO Master, Lausanne, Switzerland</em></p>
+              <p><strong>Grade</strong>: GPA 5.5 / 6.0</p>
+              <p><strong>Thesis</strong>: See above</p>
+              <a href="assets/img/transcripts/Grade Transcript Master.png" data-gallery="gradeTranscript"
+                class="portfolio-lightbox" title="Grade Transcript Master"><i class="fa-solid fa-file-lines"></i> Grade
+                Transcript</a>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Science - Software Engineering</h4>
+              <h5>September 2016 - September 2019</h5>
+              <p><em>HE-Arc, Neuchâtel, Switzerland</em></p>
+              <p><strong>Grade</strong>: GPA 5.6 / 6.0</p>
+              <p><strong>Award</strong>: Best GPA</p>
+              <p><strong>Thesis</strong>: Used Reinforcement Learning with Unity ML-Agents in order to simulate and
+                optimize the production of machines inside a workshop. The machines are trained to adapt to the workshop
+                composition and manage to complete orders of variable complexity while continuously reducing the
+                production time.
+              </p>
+              <a href="assets/img/transcripts/Grade Transcript Bachelor.png" data-gallery="gradeTranscript"
+                class="portfolio-lightbox" title="Grade Transcript Bachelor"><i class="fa-solid fa-file-lines"></i>
+                Grade Transcript</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Research Engineer in Data Science</h4>
+              <h5>September 2020 - Present</h5>
+              <p><em>Haute Ecole Arc, Neuchâtel, Switzerland</em></p>
+              <ul>
+                <li>Utilize software engineering expertise to develop products throughout the software lifecycle to
+                  solve client problems, from ideation and requirements definition to development and successful
+                  deployment</li>
+                <li>Design, build, evaluate, tune, and deploy machine learning, deep learning and RL solutions using
+                  PyTorch, TensorFlow, and Ray RLlib.</li>
+                <li>
+                  Work with various data sources, such as time series, images, videos
+                  and natural language data, to create effective data-driven solutions.</li>
+                <li>
+                  Clean and preprocessed data to ensure accuracy, consistency, and
+                  develop robust data pipelines to streamline data processing and
+                  analysis.</li>
+                <li>
+                  Collaborate with cross-functional teams to develop AI solutions and
+                  integrate machine learning models into real world applications.</li>
+              </ul>
+            </div>
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+              <h4>Hugging Face Deep Reinforcement Learning Course</h4>
+              <h5>March 2023</h5>
+              <p><em><a
+                    href="https://huggingface.co/deep-rl-course/unit0/introduction">https://huggingface.co/deep-rl-course/
+                  </a></em>
+              </p>
+              <p><strong>Grade</strong>: Excellent</p>
+              <a href="assets/img/certificates/huggingface_RL_Course.png" data-gallery="gradeTranscript"
+                class="portfolio-lightbox" title="Hugging Face Deep Reinforcement Learning Course"><i
+                  class="fa-solid fa-file-lines"></i></i> Certificate</a>
+            </div>
+            <div class="resume-item">
+              <h4>Winter School in Data Analytics and Machine Learning</h4>
+              <h5>Spring 2021</h5>
+              <p><em>University of Fribourg, Fribourg, Switzerland</em></p>
+              <p><strong>Grade</strong>: GPA 5.6/6.0</p>
+              <a href="assets/img/certificates/Certificat_Winter School in Data Analytics and Machine Learning with grade _ Farid Abdalla.png"
+                data-gallery="gradeTranscript" class="portfolio-lightbox"
+                title="Grade Transcript Winter School in Data Analytics and Machine Learning"><i
+                  class="fa-solid fa-file-lines"></i></i> Certificate with grade</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p class="lh-lg introduction-paragraph">I have worked on various projects that allowed me to develop my
+            skills in multiple domains.
+
+            Some of my notable projects include developing machine learning models using
+            <b>PyTorch</b>,
+            <b>TensorFlow</b>, and <b>Scikit-learn</b>.
+            These projects involved <b>data manipulation</b>, <b>model training</b>, and <b>testing</b>, which allowed
+            me to acquire a deeper understanding of these tools.
+
+            Additionally, I have worked on <b>reinforcement learning</b> projects, which enabled me to build
+            intelligent systems that learn and adapt to their environment. Apart from technical projects, I have also
+            participated in <b>game jams</b>, where I <b>collaborated with other developers</b> to create games within a
+            short period, which required <b>quick prototyping</b> and <b>problem-solving skills</b>.
+          </p>
+          <p class="lh-lg introduction-paragraph">
+            Overall, my diverse set of projects has equipped me with the knowledge and experience to take on challenging
+            projects in the future.
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-pytorch">PyTorch</li>
+              <li data-filter=".filter-tf">Tensorflow</li>
+              <li data-filter=".filter-sklearn">Scikit-Learn</li>
+              <li data-filter=".filter-RL">Reinforcement Learning</li>
+              <li data-filter=".filter-games">Game Jam</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <!-- TorchGANime -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pytorch">
+            <div class="portfolio-img"><img src="assets/img/portfolio/torchganime_logo.gif" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>TorchGANime</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Video generation of anime content conditioned on two frames (PyTorch implementation)
+                  </p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/torchganime_logo.gif" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://github.com/Kurokabe/TorchGANime" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SceneDataset -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pytorch">
+            <div class="portfolio-img"><img src="assets/img/portfolio/SceneDataset.png" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>SceneDataset</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">PyTorch Dataset which splits scenes with PySceneDetect and optimally load them
+                    with Decord</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/SceneDataset.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://github.com/Kurokabe/SceneDataset" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GANime -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tf">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ganime_logo.gif" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>GANime</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Video generation of anime content conditioned on two frames (Tensorflow
+                    implementation)</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/ganime_logo.gif" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://github.com/Kurokabe/GANime" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SOON-RL -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-RL">
+            <div class="portfolio-img"><img src="assets/img/portfolio/soon.png" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>SOON-RL</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Workshop production optimization on a multi-agent setup with Reinforcement Learning
+                  </p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/soon.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="SOON-RL"><i class="bx bx-plus"></i></a> -->
+                    <a href="soon_rl.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DL4Space -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pytorch">
+            <div class="portfolio-img"><img src="assets/img/portfolio/dl4space.png" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>DL4Space</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Anomaly detection and root cause investigation with explainable models on satellites
+                    data</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/dl4space.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="DL4Space"><i class="bx bx-plus"></i></a> -->
+                    <a href="dl4space.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MoDoS -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tf">
+            <div class="portfolio-img"><img src="assets/img/portfolio/modos.png" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>MoDoS</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Model fine-tuning on a highly imbalanced dataset of urban images
+                  </p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/modos.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="MoDoS"><i class="bx bx-plus"></i></a> -->
+                    <a href="modos.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PPI -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tf">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ppi.png" class="img-fluid"></div>
+            <div class="portfolio-info">
+              <h4>PPI</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Explainable deep learning model to assist a trader in making decisions on different
+                    currency pairs</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/ppi.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="PPI"><i class="bx bx-plus"></i></a> -->
+                    <a href="ppi.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Clustering Tool -->
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-sklearn">
+            <div class="portfolio-img"><img src="assets/img/portfolio/clustering.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>Clustering Tool</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Clustering of electricity consumption based on different user profiles
+                  </p>
+                  <div class="col-1">
+                    <a href="assets/img/portfolio/clustering.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="Clustering Tool"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Clippy -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <div class="portfolio-img"><img src="assets/img/portfolio/clippy.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>Mark and Clippy</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md"> GMTK Game Jam 2020 with the theme: Out of Control</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/clippy.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="Mark and Clippy"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://the-wildfire.itch.io/clippy-and-mark" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- K-Defaults -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sklearn">
+            <div class="portfolio-img"><img src="assets/img/portfolio/ceramaret.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>K-Defaults</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Multi-label classification on textual descriptions for a quality control
+                    application.
+                  </p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/ceramaret.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="K-Defaults"><i class="bx bx-plus"></i></a> -->
+                    <a href="kdefaults.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Magic Valley -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <div class="portfolio-img"><img src="assets/img/portfolio/magic_valley.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>Magic Valley</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Game created for the Nordic Game Jam Online (theme : everyday magic) and for the
+                    Ludum Dare 46 (theme : keep it alive)
+                  </p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/magic_valley.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="Magic Valley"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://spicypaper.itch.io/magic-valley" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Magnet Arena -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <div class="portfolio-img"><img src="assets/img/portfolio/magnet_arena.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>Magnet Arena</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Game created for the GMTK 2021 Game Jam with the theme:
+                    Joined Together</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/magnet_arena.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="Magnet Arena"><i class="bx bx-plus"></i></a> -->
+                    <a href="https://spicypaper.itch.io/magnet-arena" class="details-link" title="More Details"><i
+                        class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- The legend of the empty one -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <div class="portfolio-img"><img src="assets/img/portfolio/empty_one.png" class="img-fluid">
+            </div>
+            <div class="portfolio-info">
+              <h4>The Legend of the Empty One</h4>
+              <div class="container">
+                <div class="row">
+                  <p class="col-md">Game created for the Ludum Dare 45 Game Jam with the theme:
+                    Start with nothing</p>
+                  <div class="col-1">
+                    <!-- <a href="assets/img/portfolio/empty_one.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox preview-link" title="The Legend of the Empty One"><i
+                        class="bx bx-plus"></i></a> -->
+                    <a href="https://spicypaper.itch.io/the-legend-of-the-empty-one" class="details-link"
+                      title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur</p>
+          </div>
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque</p>
+          </div>
+          <div class="col-md-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Certificates Section ======= -->
+
+    <section id="hobbies" class="hobbies section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Hobbies</h2>
+        </div>
+
+        <div class="row hobbies-content">
+          <div class="container-fluid">
+            <div class="row my-5 justify-content-center">
+              <div class="col-md text-center">
+                <img src="assets/img/icons/dumbbell.png" class="mb-4">
+                <h4 class="mb-3">Fitness</h4>
+              </div>
+              <div class="col-md text-center">
+                <img src="assets/img/icons/japan.png" class="mb-4">
+                <h4 class="mb-3">Anime & Manga</h4>
+              </div>
+              <div class="col-md text-center">
+                <img src="assets/img/icons/escape_games.png" class="mb-4">
+                <h4 class="mb-3">Escape Games</h4>
+              </div>
+              <div class="col-md text-center">
+                <img src="assets/img/icons/dnd.png" class="mb-4">
+                <h4 class="mb-3">DnD & Board Games</h4>
+              </div>
+              <div class="col-md text-center">
+                <img src="assets/img/icons/console.png" class="mb-4">
+                <h4 class="mb-3">Video games</h4>
+              </div>
+              <div class="col-md text-center">
+                <img src="assets/img/icons/innovation.png" class="mb-4">
+                <h4 class="mb-3">AI projects</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!-- End Hobbies Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Please don't hesitate to reach out if you have any questions or would like to get in touch with me. You can
+            contact me through any of the following means:</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-4 col-md-8 d-flex justify-content-center mb-3">
+            <div class="info">
+              <div class="link">
+                <i class="bi bi-envelope"></i>
+                <!-- <h4>Email:</h4> -->
+                <p><a href="mailto:abdalla.farid@hotmail.com">abdalla.farid@hotmail.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8 d-flex justify-content-center mb-3">
+            <div class="info">
+              <div class="link">
+                <i class="fa-brands fa-linkedin"></i>
+                <!-- <h4>Call:</h4> -->
+                <p><a href="https://www.linkedin.com/in/farid-abdalla/">farid-abdalla</a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-8 d-flex justify-content-center mb-3">
+            <div class="info">
+              <div class="link ">
+                <i class="fa-brands fa-github"></i>
+                <!-- <h4>Call:</h4> -->
+                <p><a href="https://github.com/Kurokabe">Kurokabe</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <!-- <div class="container"> -->
+    <!-- <div class="copyright"> -->
+    <!-- &copy; Copyright <strong><span>iPortfolio</span></strong> -->
+    <!-- </div> -->
+    <!-- <div class="credits"> -->
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+    <!-- </div> -->
+    <!-- </div> -->
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
